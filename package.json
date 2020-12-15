@@ -1,0 +1,25 @@
+{
+  "name": "nodeadv22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fileStreams.js",
+  "dependencies": {
+    "get-stream": "^6.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwardtanguay/nodeadv22.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edwardtanguay/nodeadv22/issues"
+  },
+  "homepage": "https://github.com/edwardtanguay/nodeadv22#readme"
+}
