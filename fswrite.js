@@ -1,5 +1,4 @@
 const fs = require('fs');
- 
 const servers = {
     "62732": {
         name: 'External_83743',
@@ -14,14 +13,14 @@ const servers = {
         drives: 2
     }
 };
- 
-for (let x = 1; x <= 10000; x++) {
+debugger; 
+for (let x = 1; x <= 10; x++) {
     servers[x] = {
         'type': 'test',
         'identifier': x
     }
 }
- 
+debugger; 
 fs.writeFile('servers.json', JSON.stringify(servers), err => {
     if (err) throw err;
     console.log('finished');
